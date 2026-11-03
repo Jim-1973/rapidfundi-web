@@ -20,7 +20,7 @@ export default function Home() {
 
   return (
     <main className="bg-[#FCFBF8] min-h-screen font-sans antialiased">
-      {/* TOP BANNER - FIXED */}
+      {/* TOP BANNER */}
       <div className="bg-[#0A1931] text-white text-center py-2.5 px-6 text-[11px] font-bold tracking-wide">
         <span className="inline-flex items-center gap-2">
           <span className="w-2 h-2 bg-[#22C55E] rounded-full animate-pulse"></span>
@@ -28,7 +28,7 @@ export default function Home() {
         </span>
       </div>
 
-      {/* HEADER - FIXED: One public number + sticky download */}
+      {/* HEADER */}
       <header className="bg-white border-b border-black/5 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 h-[72px] flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
@@ -58,23 +58,23 @@ export default function Home() {
         </div>
       </header>
 
-      {/* HERO - FIXED: Nairobi-wide copy */}
+      {/* HERO */}
       <section className="max-w-7xl mx-auto px-6 py-12 md:py-20 grid md:grid-cols-2 gap-12 items-center">
         <div>
           <div className="inline-flex items-center gap-2 bg-white border border-black/5 shadow-sm px-3 py-1.5 rounded-full text-[11px] font-black tracking-wide">
-            <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span> SERVING NAIROBI • NITA VERIFIED
+            <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span> SERVING NAIROBI • NITA VERIFIED • CBD: MUNYU ROAD
           </div>
           <h1 className="mt-6 text-[42px] md:text-[56px] leading-[0.9] font-black tracking-[-0.03em] text-[#0F172A]">
             Verified plumbers anywhere in Nairobi, <span className="text-[#0A66FF]">sent to you fast.</span>
           </h1>
           <p className="mt-6 text-[17px] leading-7 text-[#475569] max-w-[480px]">
-            Nearest NITA-licensed fundi dispatched, upfront price, photo proof before you pay. Typically 30 to 60 minutes depending on area and traffic. Pay via M-Pesa.
+            Nearest NITA-licensed fundi dispatched, upfront price, photo proof before you pay. Typically 30 to 60 minutes depending on area and traffic. Pay via M-Pesa to LANTEI. Base: Munyu Road, Nairobi CBD.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a href="#download-app" className="bg-[#0F172A] text-white px-8 py-4 rounded-full font-bold text-[14px]">Download for Android</a>
             <a href="https://wa.me/254722819877?text=Hi%20RapidFundi%20-%20I%20need%20a%20plumber%20in%20" target="_blank" className="bg-white border border-black/10 px-8 py-4 rounded-full font-bold text-[14px]">WhatsApp Us</a>
           </div>
-          <div className="mt-4 text-[11px] text-[#64748B]">Emergency line 24/7, standard visits 8am-7pm • RapidFundi is a product of Lantei Supplies</div>
+          <div className="mt-4 text-[11px] text-[#64748B]">Emergency line 24/7, standard visits 8am-7pm • RapidFundi is a product of Lantei Supplies • rapidfundi.vercel.app</div>
         </div>
 
         <div className="relative md:ml-8">
@@ -87,7 +87,7 @@ export default function Home() {
               <div className="m-3 bg-white rounded-[16px] border shadow-sm p-4">
                 <div className="flex justify-between"><div className="flex items-center gap-2.5"><div className="w-8 h-8 rounded-full bg-[#0A1931] text-white flex items-center justify-center text-[11px] font-black">JK</div><div><div className="font-black text-[13px]">Job #124 • Office Leak</div><div className="text-[11px] text-[#64748B]">By James K. • NITA Licensed</div></div></div><div className="bg-[#ECFDF5] text-[#15803D] text-[9px] font-black px-2.5 py-1 rounded-full">VERIFIED</div></div>
                 <div className="mt-3 grid grid-cols-2 gap-2.5"><div className="bg-[#F1F5F9] rounded-xl h-[76px] flex items-center justify-center text-[10px] font-bold">BEFORE</div><div className="bg-[#0F172A] rounded-xl h-[76px] flex items-center justify-center text-[10px] font-bold text-white">AFTER ✓</div></div>
-                <div className="mt-3 flex justify-between text-[11px]"><span className="text-[#64748B]">✓ Photo proof • ✓ M-Pesa</span><span className="font-black">From KES 2,500</span></div>
+                <div className="mt-3 flex justify-between text-[11px]"><span className="text-[#64748B]">✓ Photo proof • ✓ M-Pesa LANTEI</span><span className="font-black">From KES 2,500</span></div>
               </div>
             </div>
           </div>
@@ -97,7 +97,7 @@ export default function Home() {
       {/* TRUST STRIP */}
       <section className="bg-[#0A1931] text-white py-4 px-6">
         <div className="max-w-7xl mx-auto flex flex-wrap gap-8 text-[11px] font-black tracking-widest">
-          <span>✓ VERIFIED FUNDIS</span><span>✓ UPFRONT PRICING</span><span>✓ PHOTO PROOF</span><span>✓ M-PESA: LANTEI</span><span className="text-white/60 font-medium tracking-normal">If we don't arrive, we re-visit free within 3 days.</span>
+          <span>✓ VERIFIED FUNDIS</span><span>✓ UPFRONT PRICING</span><span>✓ PHOTO PROOF</span><span>✓ M-PESA: LANTEI</span><span className="text-white/60 font-medium tracking-normal">If we don't arrive, we re-visit free within 3 days. Base: Munyu Road, CBD.</span>
         </div>
       </section>
 
@@ -123,7 +123,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="inline-flex bg-[#0A1931] text-white px-3 py-1 rounded-full text-[10px] font-black tracking-[0.2em]">OUR SERVICES</div>
           <h2 className="mt-4 text-[36px] font-black text-[#0A1931]">Fixed Right. Priced Right.</h2>
-          <p className="text-[13px] text-[#64748B] mt-2">From prices include call-out + labour. Parts extra, quoted before work.</p>
+          <p className="text-[13px] text-[#64748B] mt-2">From prices include call-out + labour. Parts extra, quoted before work. Dispatched from Nairobi CBD, Munyu Road hub.</p>
           <div className="mt-10 grid md:grid-cols-3 gap-6">
             {[
               ["Drain Unclogging","Sinks, toilets, kitchen lines for homes & shops.","From KES 2,500"],
@@ -139,14 +139,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* COVERAGE - FIXED: Area groups + estate checker */}
+      {/* COVERAGE */}
       <section id="coverage" className="bg-[#0A1931] text-white py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-[1.1fr_0.9fr] gap-10">
             <div>
               <div className="inline-flex bg-white/10 px-3 py-1 rounded-full text-[10px] font-black tracking-[0.2em] text-[#FFC83D]">WHERE WE SERVE</div>
               <h2 className="mt-4 text-[40px] font-black leading-[0.9]">Serving Nairobi.<br/>Not just CBD.</h2>
-              <p className="mt-4 text-[14px] text-white/60">We dispatch the nearest verified fundi. Arrival typically 30 to 60 minutes depending on area and traffic.</p>
+              <p className="mt-4 text-[14px] text-white/60">We dispatch the nearest verified fundi from our hub at Munyu Road, Nairobi CBD. Arrival typically 30 to 60 minutes depending on area and traffic.</p>
               <div className="mt-8 space-y-3">
                 {AREAS.map(a=>(
                   <div key={a.group} className="bg-white text-[#0A1931] rounded-[16px] p-4 flex justify-between"><div><div className="font-black text-[13px]">{a.group}</div><div className="text-[11px] text-[#64748B]">{a.examples}</div></div><span className="text-[10px] font-black bg-[#0A1931] text-white px-2 py-1 rounded-full h-fit">LIVE</span></div>
@@ -170,18 +170,18 @@ export default function Home() {
         </div>
       </section>
 
-      {/* APK SECTION - FIXED */}
+      {/* APK SECTION */}
       <section id="download-app" className="bg-white py-20 px-6 border-t">
         <div className="max-w-7xl mx-auto">
           <div className="bg-[#FCFBF8] border rounded-[28px] p-8 md:p-10 grid md:grid-cols-2 gap-10 items-center">
             <div>
               <div className="inline-flex bg-[#FFC83D] text-[#0A1931] px-3 py-1 rounded-full text-[10px] font-black">EARLY ACCESS: Google Play coming soon</div>
               <h2 className="mt-4 text-[32px] font-black leading-[0.9] text-[#0A1931]">Get the RapidFundi app</h2>
-              <p className="mt-3 text-[13px] text-[#64748B] leading-6">Book in 30 seconds, track fundi, get photo proof. Published by Lantei Supplies.</p>
+              <p className="mt-3 text-[13px] text-[#64748B] leading-6">Book in 30 seconds, track fundi, get photo proof. Published by Lantei Supplies. Official site: rapidfundi.vercel.app</p>
               
               <div className="mt-6 flex flex-col gap-3">
                 <a href="/rapidfundi-v1.0.0.apk" download className="bg-[#0A1931] text-white px-6 py-3.5 rounded-full text-[13px] font-black text-center">Download for Android (APK)</a>
-                <div className="text-[11px] text-[#64748B]">v1.0.0 • 18 MB • 3 Nov 2026 • SHA-256: will publish after build</div>
+                <div className="text-[11px] text-[#64748B]">v1.0.0 • 18 MB • 3 Nov 2026 • Hosted on rapidfundi.vercel.app</div>
               </div>
 
               <div className="mt-6 space-y-2 text-[12px] text-[#475569]">
@@ -189,13 +189,13 @@ export default function Home() {
                 <div><b>2. Install</b> - Open file, allow "Install unknown apps" for browser.</div>
                 <div><b>3. Open</b> - Login and request fundi.</div>
                 <div className="pt-2 text-[11px] text-[#64748B]">Seeing "unknown developer" or Play Protect warning is expected for apps outside Play Store. App is signed by Lantei.</div>
-                <div className="text-[11px]"><b>Permissions:</b> Location (nearest fundi), Camera/Photos (job proof), Phone/Notifications.</div>
+                <div className="text-[11px]"><b>Permissions:</b> Location (nearest fundi), Camera/Photos (job proof), Phone/Notifications. Privacy: rapidfundi.vercel.app/privacy</div>
               </div>
             </div>
             <div className="space-y-4">
               <div className="bg-white border rounded-[20px] p-4 text-center">
                 <div className="text-[11px] font-black tracking-widest">QR FOR PHONE DOWNLOAD</div>
-                <div className="mt-3 w-40 h-40 mx-auto bg-[#0A1931] rounded-xl flex items-center justify-center text-white text-[11px]">QR Code Placeholder</div>
+                <div className="mt-3 w-40 h-40 mx-auto bg-[#0A1931] rounded-xl flex items-center justify-center text-white text-[11px]">QR: rapidfundi.vercel.app</div>
               </div>
               <div className="bg-[#0A1931] rounded-[20px] p-5 text-white">
                 <div className="text-[12px] font-black">iPhone?</div>
@@ -217,12 +217,13 @@ export default function Home() {
           <h2 className="text-[32px] font-black text-[#0A1931] text-center">FAQ</h2>
           <div className="mt-10 space-y-4">
             {[
-              ["How fast do you arrive?","Typically 30-60 mins depending on area and traffic. We dispatch nearest verified fundi."],
+              ["How fast do you arrive?","Typically 30-60 mins depending on area and traffic. We dispatch nearest verified fundi from Munyu Road, Nairobi CBD hub."],
               ["How does pricing work?","From price includes call-out + labour. Parts extra. You get fixed quote in app before work."],
-              ["How do I pay?","RapidFundi is a product of Lantei Supplies. Pay only via in-app request or official till. Never to personal number."],
+              ["How do I pay?","RapidFundi is a product of Lantei Supplies. Pay only via in-app request or official till showing LANTEI. Never to personal number."],
               ["What is the guarantee?","If job fails or fundi doesn't arrive, we re-visit free within 3 days."],
-              ["Which areas do you serve?","All Nairobi - CBD, Westlands, Kilimani, Eastlands, Thika Road, South, Karen, etc. Check your estate above."],
-              ["How to install APK?","Download, tap file, allow install unknown apps for browser, open. Play Protect warning is normal before Play Store listing."],
+              ["Which areas do you serve?","All Nairobi - CBD (Munyu Road), Westlands, Kilimani, Eastlands, Thika Road, South, Karen, etc."],
+              ["How to install APK?","Download from rapidfundi.vercel.app, tap file, allow install unknown apps for browser, open. Play Protect warning is normal before Play Store listing."],
+              ["Privacy Policy URL for Play Store?","https://rapidfundi.vercel.app/privacy - Email deletion requests to rapidfundi@outlook.com"],
             ].map(([q,a])=>(
               <div key={q} className="bg-white border rounded-[16px] p-5"><div className="font-black text-[13px]">{q}</div><div className="mt-2 text-[13px] text-[#64748B] leading-6">{a}</div></div>
             ))}
@@ -230,25 +231,26 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CONTACT - FIXED: One number */}
+      {/* CONTACT */}
       <section id="contact" className="bg-white py-20 px-6 border-t">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10">
           <div>
             <div className="inline-flex bg-[#0A1931] text-white px-3 py-1 rounded-full text-[10px] font-black">CONTACT & DISPATCH</div>
             <h2 className="mt-4 text-[36px] font-black text-[#0A1931] leading-[0.9]">Talk to dispatch.<br/>One hotline.</h2>
-            <p className="mt-4 text-[13px] text-[#64748B]">Our dispatch is Nairobi-based. Payments go to LANTEI till only.</p>
+            <p className="mt-4 text-[13px] text-[#64748B]">Our dispatch hub is at Munyu Road, Nairobi CBD. Payments go to LANTEI till only.</p>
             <div className="mt-6 bg-[#FCFBF8] border rounded-2xl p-4 flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-[#FFC83D] flex items-center justify-center font-black">M</div>
-              <div><div className="text-[11px] font-black text-[#64748B]">MAIN HOTLINE</div><div className="font-black">+254 722 819 877</div><div className="text-[11px] text-[#64748B]">24/7 Emergency • Standard visits 8am-7pm</div></div>
+              <div><div className="text-[11px] font-black text-[#64748B]">MAIN HOTLINE + LOCATION</div><div className="font-black">+254 722 819 877 • Munyu Road, CBD</div><div className="text-[11px] text-[#64748B]">24/7 Emergency • Standard visits 8am-7pm • Email: rapidfundi@outlook.com</div></div>
             </div>
           </div>
           <div className="bg-[#0A1931] rounded-[24px] p-8 text-white">
-            <div className="font-black text-[18px]">Contact</div>
+            <div className="font-black text-[18px]">Contact Lantei Supplies</div>
             <div className="mt-6 space-y-4">
               <a href="tel:+254722819877" className="block bg-white text-[#0A1931] text-center py-3 rounded-full font-black text-[13px]">Call +254 722 819 877</a>
               <a href="https://wa.me/254722819877?text=Hi%20RapidFundi%20-%20I%20need%20a%20plumber%20in%20" target="_blank" className="block bg-[#25D366] text-white text-center py-3 rounded-full font-black text-[13px]">WhatsApp Us</a>
-              <div className="text-[11px] text-white/60">Email: hello@rapidfundi.co.ke (set up domain email) • Currently: rapidfundi@outlook.com</div>
-              <div className="text-[11px] text-white/50">Registered: Lantei Supplies • Add physical address + registration no. in footer</div>
+              <a href="mailto:rapidfundi@outlook.com" className="block bg-white/10 border border-white/20 text-white text-center py-3 rounded-full font-black text-[13px]">Email: rapidfundi@outlook.com</a>
+              <div className="text-[11px] text-white/60">Official Site: rapidfundi.vercel.app • Privacy: rapidfundi.vercel.app/privacy • Terms: rapidfundi.vercel.app/terms</div>
+              <div className="text-[11px] text-white/50">Registered: Lantei Supplies • Physical: Munyu Road, Nairobi CBD, Kenya</div>
             </div>
           </div>
         </div>
@@ -256,8 +258,8 @@ export default function Home() {
 
       <footer className="bg-[#0A1931] text-white py-10 px-6 border-t border-white/10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-4 text-[11px] text-white/60">
-          <div>© 2026 RapidFundi by Lantei Supplies • A product of Lantei • Serving Nairobi • Emergency 24/7, standard 8am-7pm</div>
-          <div className="flex gap-4"><Link href="/privacy" className="underline">Privacy</Link><Link href="/terms" className="underline">Terms</Link></div>
+          <div>© 2026 RapidFundi by Lantei Supplies • Munyu Road, Nairobi CBD • rapidfundi.vercel.app • Emergency 24/7, standard 8am-7pm • rapidfundi@outlook.com</div>
+          <div className="flex gap-4"><Link href="/privacy" className="underline">Privacy</Link><Link href="/terms" className="underline">Terms</Link><a href="mailto:rapidfundi@outlook.com" className="underline">Email</a></div>
         </div>
       </footer>
     </main>
