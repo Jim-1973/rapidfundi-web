@@ -5,60 +5,87 @@ export default function PrivacyPage() {
     <main className="bg-[#FCFBF8] min-h-screen py-16 px-6">
       <div className="max-w-3xl mx-auto">
         <Link href="/" className="text-[12px] font-black underline">← Back to RapidFundi</Link>
-        <h1 className="mt-6 text-[36px] font-black text-[#0A1931] leading-[0.9]">Privacy Policy</h1>
-        <div className="mt-2 text-[12px] text-[#64748B]">Effective: 3 Nov 2026 • Lantei Supplies / RapidFundi</div>
-        
+        <h1 className="mt-6 text-[36px] font-black text-[#0A1931] leading-[0.9]">RapidFundi - Privacy Policy</h1>
+        <div className="mt-2 text-[12px] text-[#64748B]">Last Updated: 3 Nov 2026 • Mandatory for Google Play</div>
+        <div className="mt-3 bg-[#0A1931] text-white rounded-xl p-4 text-[12px]">
+          <b>Play Console URL:</b> Host this at https://rapidflow-plumbing-five.vercel.app/privacy<br/>
+          This URL will be pasted in Play Console → App Content → Privacy Policy
+        </div>
+
         <div className="mt-10 space-y-8 text-[14px] leading-7 text-[#334155]">
           <section>
-            <h2 className="font-black text-[16px] text-[#0A1931]">1. Who we are</h2>
-            <p className="mt-2">RapidFundi is a product of <b>Lantei Supplies</b>, Nairobi, Kenya. We provide on-demand plumbing services across Nairobi. Contact: hello@rapidfundi.co.ke / +254 722 819 877.</p>
-            <p className="mt-2 text-[12px] bg-white border rounded-xl p-3">Currently using rapidfundi@outlook.com - migrating to domain email. Company registration and physical address to be added in footer after incorporation certificate is available.</p>
+            <h2 className="font-black text-[16px] text-[#0A1931]">1. Information We Collect</h2>
+            <div className="mt-3 space-y-3">
+              <div><b>Account:</b> Name, phone number, email (from Supabase Auth)</div>
+              <div><b>Job Details:</b> Location (estate, building), category, photos/videos of plumbing issue (job-evidence storage bucket)</div>
+              <div><b>Payment:</b> M-Pesa phone number, transaction amount, receipt data. We DO NOT store M-Pesa PIN.</div>
+              <div><b>Device:</b> Device ID, app version, crash logs via Expo</div>
+            </div>
           </section>
 
           <section>
-            <h2 className="font-black text-[16px] text-[#0A1931]">2. What we collect (Kenya Data Protection Act 2019)</h2>
+            <h2 className="font-black text-[16px] text-[#0A1931]">2. How We Use It</h2>
             <ul className="list-disc ml-5 mt-2">
-              <li><b>Contact:</b> name, phone, estate/area, email if you provide it for Play Store notify.</li>
-              <li><b>Location:</b> only when you request a fundi via app/call/WhatsApp, to dispatch nearest fundi.</li>
-              <li><b>Photos:</b> before/after job photos for proof, with your consent.</li>
-              <li><b>Usage:</b> clicks on Call, WhatsApp, Download for analytics.</li>
+              <li>To assign nearest plumber, generate quotations and receipts</li>
+              <li>To process M-Pesa payments via Daraja API (Safaricom)</li>
+              <li>To provide proof of work (before/after photos)</li>
+              <li>To contact you via Call / WhatsApp on +254 722 819 877</li>
             </ul>
-            <p className="mt-2">We do NOT collect M-Pesa PIN, ID numbers, or personal numbers of fundis for public display.</p>
           </section>
 
           <section>
-            <h2 className="font-black text-[16px] text-[#0A1931]">3. Why we collect</h2>
-            <p>To dispatch fundis, give quotes, provide photo proof, improve coverage, and notify about Play Store launch. Legal basis: consent and performance of service you request.</p>
-          </section>
-
-          <section>
-            <h2 className="font-black text-[16px] text-[#0A1931]">4. M-Pesa payments</h2>
-            <p>All payments go to official LANTEI till. We never ask you to send to personal numbers. Payment processing is via Safaricom M-Pesa. We do not store your M-Pesa PIN.</p>
-            <p className="mt-2 bg-[#FFFBEB] border border-[#FDE68A] rounded-xl p-3 text-[12px]"><b>Important:</b> RapidFundi is a product of Lantei Supplies. If you see LANTEI on M-Pesa prompt, that is correct and expected.</p>
-          </section>
-
-          <section>
-            <h2 className="font-black text-[16px] text-[#0A1931]">5. Sharing</h2>
-            <p>We share your phone + estate + issue with assigned NITA-licensed fundi only to complete job. No selling of data. Fundis are under NDA and vetting.</p>
-          </section>
-
-          <section>
-            <h2 className="font-black text-[16px] text-[#0A1931]">6. Retention & Rights</h2>
-            <p>Job data kept 24 months for warranty and tax. You can request access, correction, deletion via hello@rapidfundi.co.ke. We will respond within 14 days per ODPC guidelines.</p>
-            <p className="mt-2 text-[12px]">Data storage: Kenya / Vercel / Firebase. If Lantei is required to register as Data Controller with ODPC, registration number will be listed here after legal review.</p>
-          </section>
-
-          <section>
-            <h2 className="font-black text-[16px] text-[#0A1931]">7. Your choices</h2>
-            <ul className="list-disc ml-5">
-              <li>Deny location - we can still dispatch using estate you type.</li>
-              <li>Opt out of photos - but warranty may not apply without proof.</li>
-              <li>Opt out of notify email - delete via same email request.</li>
+            <h2 className="font-black text-[16px] text-[#0A1931]">3. Data Storage & Sharing</h2>
+            <ul className="list-disc ml-5 mt-2">
+              <li>Stored securely on Supabase (EU/US) with Row Level Security (RLS)</li>
+              <li>Shared only with assigned plumber for job execution</li>
+              <li>Shared with Safaricom for M-Pesa payment processing</li>
+              <li>We never sell your data</li>
             </ul>
+            <p className="mt-3 bg-[#FFFBEB] border border-[#FDE68A] rounded-xl p-3 text-[12px]"><b>Important:</b> RapidFundi is a product of Lantei Supplies. M-Pesa prompt showing LANTEI is correct and expected.</p>
+          </section>
+
+          <section>
+            <h2 className="font-black text-[16px] text-[#0A1931]">4. Location</h2>
+            <p>We collect precise location only when you create a job request to find plumbers nearby. You can deny location permission, but the app won't be able to assign a plumber automatically. You can still type your estate manually on the website.</p>
+          </section>
+
+          <section>
+            <h2 className="font-black text-[16px] text-[#0A1931]">5. Photos & Media</h2>
+            <p>Job photos are stored in <b>job-evidence</b> bucket on Supabase and visible to admin and assigned plumber only. Used as proof of work and for guarantee claims. If you delete a job, photos remain for 7 years for tax but are anonymized.</p>
+          </section>
+
+          <section>
+            <h2 className="font-black text-[16px] text-[#0A1931]">6. Your Rights (Kenya Data Protection Act 2019)</h2>
+            <p>You can request deletion of account and data via WhatsApp admin or email <b>rapidfundi@outlook.com</b>. We respond within 14 days per ODPC guidelines. You have right to access, correct, object.</p>
+            <p className="mt-2 text-[12px] bg-white border rounded-xl p-3">Encryption in transit: YES - Supabase uses HTTPS, M-Pesa Daraja uses TLS. Data deletion: YES - via admin request. Target Audience: 18+</p>
+          </section>
+
+          <section>
+            <h2 className="font-black text-[16px] text-[#0A1931]">7. Data Retention</h2>
+            <p>Jobs, receipts and payment records kept for <b>7 years</b> for KRA tax compliance. You can delete account but receipts remain anonymized as required by law. Crash logs kept 90 days.</p>
+          </section>
+
+          <section>
+            <h2 className="font-black text-[16px] text-[#0A1931]">8. Children</h2>
+            <p>App not for under 18. We do not knowingly collect data from children.</p>
+          </section>
+
+          <section>
+            <h2 className="font-black text-[16px] text-[#0A1931]">9. Data Safety Form - What to declare in Play Console</h2>
+            <div className="mt-2 bg-white border rounded-xl p-4 text-[12px] space-y-1">
+              <div>Location: Collected, for app functionality, precise</div>
+              <div>Photos: Collected, for app functionality</div>
+              <div>Phone Number: Collected, for account + payments</div>
+              <div>Financial info: M-Pesa payment, collected</div>
+              <div>Encryption in transit: YES</div>
+              <div>Data deletion: YES - user can request via admin</div>
+              <div>Permissions: Location (find plumber), Camera (job proof), Storage (receipt PDF)</div>
+            </div>
           </section>
 
           <section className="border-t pt-6">
-            <p className="text-[12px] text-[#64748B]">Questions: hello@rapidfundi.co.ke • +254 722 819 877 • Nairobi, Kenya</p>
+            <h2 className="font-black text-[16px] text-[#0A1931]">10. Contact</h2>
+            <p className="mt-2">RapidFundi by Lantei Supplies, Athi River, Kenya<br/>Phone: +254 722 819 877 / 0722819877<br/>Email: <b>rapidfundi@outlook.com</b><br/>Website: rapidflow-plumbing-five.vercel.app (migrating to rapidfundi.co.ke)</p>
           </section>
         </div>
       </div>
