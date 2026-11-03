@@ -8,7 +8,7 @@ export default function PrivacyPage() {
         <h1 className="mt-6 text-[36px] font-black text-[#0A1931] leading-[0.9]">RapidFundi - Privacy Policy</h1>
         <div className="mt-2 text-[12px] text-[#64748B]">Last Updated: 3 Nov 2026 • Mandatory for Google Play</div>
         <div className="mt-3 bg-[#0A1931] text-white rounded-xl p-4 text-[12px]">
-          <b>Play Console URL:</b> Host this at https://rapidflow-plumbing-five.vercel.app/privacy<br/>
+          <b>Play Console URL:</b> Host this at https https://rapidfundi.vercel.app/privacy<br/>
           This URL will be pasted in Play Console → App Content → Privacy Policy
         </div>
 
@@ -85,7 +85,7 @@ export default function PrivacyPage() {
 
           <section className="border-t pt-6">
             <h2 className="font-black text-[16px] text-[#0A1931]">10. Contact</h2>
-            <p className="mt-2">RapidFundi by Lantei Supplies, Athi River, Kenya<br/>Phone: +254 722 819 877 / 0722819877<br/>Email: <b>rapidfundi@outlook.com</b><br/>Website: rapidflow-plumbing-five.vercel.app (migrating to rapidfundi.co.ke)</p>
+            <p className="mt-2">RapidFundi by Lantei Supplies, Nairobi, Kenya<br/>Phone: +254 722 819 877 / 0722819877<br/>Email: <b>rapidfundi@outlook.com</b><br/>Website: rapidfundi.vercel.app (migrating to rapidfundi.co.ke)</p>
           </section>
         </div>
       </div>

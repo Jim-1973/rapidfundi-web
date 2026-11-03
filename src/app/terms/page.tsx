@@ -76,7 +76,7 @@ export default function TermsPage() {
 
           <section>
             <h2 className="font-black text-[16px] text-[#0A1931]">11. Governing Law</h2>
-            <p>These terms governed by Laws of Kenya. Disputes resolved in Mavoko Law Courts, Athi River. Contact: rapidfundi@outlook.com / +254 722 819 877.</p>
+            <p>These terms governed by Laws of Kenya. Disputes resolved in Magistrate Law Courts, Nairobi Contact: rapidfundi@outlook.com / +254 722 819 877.</p>
           </section>
 
           <section>
