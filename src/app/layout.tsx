@@ -13,10 +13,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "RapidFundi by Lantei - Plumbing in 30 Mins | Nairobi CBD",
-  description: "NITA-licensed plumbers stationed inside Nairobi CBD. 30 min response, upfront M-Pesa pricing, photo proof. Payments under LANTEI. Call Peter +254722139333, Jim +254743525184.",
+  title: "RapidFundi by Lantei - Verified Plumbers Anywhere in Nairobi",
+  description: "Nearest NITA-licensed fundi dispatched across Nairobi. Typically 30-60 mins depending on area and traffic. Upfront pricing, photo proof, M-Pesa to LANTEI till. One hotline: +254 722 819 877. RapidFundi is a product of Lantei Supplies.",
   icons: {
     icon: "/rapidfundi.png",
+    apple: "/rapidfundi.png",
+  },
+  metadataBase: new URL("https://rapidfundi.vercel.app"),
+  openGraph: {
+    title: "RapidFundi by Lantei - Verified Plumbers Anywhere in Nairobi",
+    description: "Book in 30 seconds, get nearest verified fundi, pay via M-Pesa to LANTEI. Emergency line 24/7, standard visits 8am-7pm.",
+    url: "https://rapidfundi.vercel.app",
+    siteName: "RapidFundi",
+    type: "website",
   },
 };
 
