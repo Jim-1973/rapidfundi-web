@@ -1,6 +1,24 @@
 @import "tailwindcss";
 
+:root {
+  --bg: #FCFBF8;
+  --fg: #0F172A;
+  --brand: #0A1931;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: #FCFBF8;
-  color: #0F172A;
+  background-color: var(--bg);
+  color: var(--fg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Fix Next.js + Tailwind v4 default border */
+* {
+  border-color: hsl(0 0% 90%);
 }
